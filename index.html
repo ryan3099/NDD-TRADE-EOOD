@@ -5,43 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NDD TRADE EOOD</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f5f5f5;
     }
 
     header {
-      background-color: #1a1a1a;
+      background: linear-gradient(to right, #2c3e50, #3498db);
       color: #fff;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
-      font-size: 28px;
-      font-weight: bold;
+    }
+
+    header h1 {
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #dcdcdc;
     }
 
     .horizontal-section {
       display: flex;
-      justify-content: space-around;
-      align-items: center;
       flex-wrap: wrap;
+      justify-content: center;
       padding: 40px 20px;
       background-color: #fff;
     }
 
     .card {
-      width: 300px;
+      width: 320px;
       background-color: #fafafa;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       margin: 15px;
-      transition: 0.3s;
+      overflow: hidden;
+      transition: 0.3s ease;
     }
 
     .card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-8px);
     }
 
     .card img {
@@ -51,62 +59,101 @@
     }
 
     .card-content {
-      padding: 15px;
-      text-align: center;
+      padding: 20px;
     }
 
     .card-content h3 {
-      margin-bottom: 10px;
-      font-size: 20px;
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #2c3e50;
     }
 
     .card-content p {
-      font-size: 14px;
+      font-size: 15px;
       color: #555;
+      line-height: 1.6;
     }
 
     footer {
-      background-color: #1a1a1a;
+      background-color: #2c3e50;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 6px 0;
+      font-size: 14px;
+    }
+
+    @media(max-width: 768px) {
+      .card {
+        width: 90%;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    NDD TRADE EOOD
+    <h1>NDD TRADE EOOD</h1>
+    <p>Professional Trade & Logistics Partner – Local Expertise, Global Reach</p>
   </header>
 
   <div class="horizontal-section">
     <div class="card">
-      <img src="https://i.pinimg.com/originals/9f/7e/fd/9f7efd1b90e8b3dc0f67073440ccf878.jpg" alt="Image 1">
+      <img src="https://i.pinimg.com/originals/9f/7e/fd/9f7efd1b90e8b3dc0f67073440ccf878.jpg" alt="Import Export">
       <div class="card-content">
         <h3>Import & Export</h3>
-        <p>We provide global sourcing solutions tailored to your business needs.</p>
+        <p>At NDD TRADE EOOD, we facilitate seamless import and export operations, handling logistics, documentation, and customs clearance with precision. Whether you're sourcing products from Asia or exporting goods to the EU, our experienced team ensures speed, safety, and compliance every step of the way.</p>
       </div>
     </div>
 
     <div class="card">
-      <img src="https://t3.ftcdn.net/jpg/03/93/78/74/360_F_393787466_sSVexM5bhmR8Kb6EFgENhQOvjyDgxUZg.jpg" alt="Image 2">
+      <img src="https://t3.ftcdn.net/jpg/03/93/78/74/360_F_393787466_sSVexM5bhmR8Kb6EFgENhQOvjyDgxUZg.jpg" alt="Logistics">
       <div class="card-content">
         <h3>Logistics</h3>
-        <p>Fast and reliable transport services across Europe and beyond.</p>
+        <p>We provide end-to-end logistics solutions — road freight, warehousing, packaging, and last-mile delivery. Our team manages every movement with efficiency and real-time tracking, ensuring your goods reach the destination on time and in top condition.</p>
       </div>
     </div>
 
     <div class="card">
-      <img src="https://thedezign.com/wp-content/uploads/2021/03/Free-Square-Magazine-Mockup-01.jpg" alt="Image 3">
+      <img src="https://thedezign.com/wp-content/uploads/2021/03/Free-Square-Magazine-Mockup-01.jpg" alt="Consulting">
       <div class="card-content">
         <h3>Trade Consulting</h3>
-        <p>Expert advice to grow and manage your international trade operations.</p>
+        <p>Need advice on international trade regulations or sourcing strategies? Our expert consultants help businesses expand into new markets, reduce costs, and increase efficiency through tailored strategies and compliance support.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://ik.imagekit.io/pimberly/595e406f0f15f30010780448/tr:w-1000,h-1000,cm-pad_resize/0da316e3/60f56c25cd456c21680001ee/7fb85ac8/IC38715_01.jpg" alt="Product Sourcing">
+      <div class="card-content">
+        <h3>Product Sourcing</h3>
+        <p>We connect you with the best suppliers worldwide. From factory audits to quality control, we ensure that every product you receive meets international standards and your unique requirements. Quality and cost-effectiveness are our top priorities.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581091012184-7a5ea0b5a962" alt="Warehousing">
+      <div class="card-content">
+        <h3>Storage & Warehousing</h3>
+        <p>Our strategically located warehouse in Bulgaria offers flexible storage solutions for small and large businesses. With full security, inventory tracking, and fast access, you can manage stock confidently and efficiently.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1611327402134-31f2adf13f63" alt="Custom Orders">
+      <div class="card-content">
+        <h3>Custom Orders</h3>
+        <p>Looking for something unique? We handle tailored trade deals, packaging, and logistics setups that match your industry-specific needs. With NDD TRADE EOOD, you’re not just another client — you're a partner in progress.</p>
       </div>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 NDD TRADE EOOD. All rights reserved.
+    <p>Email: contact@ndtrade.shop</p>
+    <p>Address: Veliko Tarnovo, 5000 Bulgaria</p>
+    <p>&copy; 2025 NDD TRADE EOOD. All rights reserved.</p>
   </footer>
 
 </body>
