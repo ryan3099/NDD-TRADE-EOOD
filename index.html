@@ -1,67 +1,113 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NDD TRADE EOOD</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      background: #f5f5f5;
     }
+
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .horizontal-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fafafa;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+
+    .card-content h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
     }
-    h1, h2 {
-      color: #003366;
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
-    }
+
     footer {
-      background-color: #003366;
+      background-color: #1a1a1a;
       color: white;
       text-align: center;
       padding: 15px;
-      margin-top: 50px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    NDD TRADE EOOD
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <div class="horizontal-section">
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/9f/7e/fd/9f7efd1b90e8b3dc0f67073440ccf878.jpg" alt="Image 1">
+      <div class="card-content">
+        <h3>Import & Export</h3>
+        <p>We provide global sourcing solutions tailored to your business needs.</p>
+      </div>
     </div>
-  </section>
+
+    <div class="card">
+      <img src="https://t3.ftcdn.net/jpg/03/93/78/74/360_F_393787466_sSVexM5bhmR8Kb6EFgENhQOvjyDgxUZg.jpg" alt="Image 2">
+      <div class="card-content">
+        <h3>Logistics</h3>
+        <p>Fast and reliable transport services across Europe and beyond.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://thedezign.com/wp-content/uploads/2021/03/Free-Square-Magazine-Mockup-01.jpg" alt="Image 3">
+      <div class="card-content">
+        <h3>Trade Consulting</h3>
+        <p>Expert advice to grow and manage your international trade operations.</p>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    &copy; 2025 NDD TRADE EOOD. All rights reserved.
   </footer>
+
 </body>
 </html>
